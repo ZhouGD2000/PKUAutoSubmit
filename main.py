@@ -17,7 +17,7 @@ import os
 
 TIMEOUT = 20
 TIMESLP = 3
-CONFIGCODE = 1
+CONFIGCODE = 0
 
 def login(driver, username, password, failed=0):
     if failed == 3:
